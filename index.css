@@ -8,11 +8,14 @@ html, body {
 	height: 60px;
 	display: flex;
 	flex-flow: row-reverse wrap;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0px 0px 20px black;
 }
 
 .nav_link, .nav_div {
 	width: 25%;
-	background-color:#0094E9;
+	background-color: white;
 	font-size: 24px;
 }
 
@@ -28,16 +31,33 @@ html, body {
 	text-decoration: underline;
 }
 
-.nav_div * {
+.nav_div {
 	font-size: 18px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	border-radius: 0 0 0 10px;
 	display: none;
 }
 
+.nav_div a {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	color: black;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
 .nav a * {
-	font-family: 'Merriweather', serif;
-	color: white;
-	text-transform: capitalize;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	color: black;
+	text-transform: uppercase;
+}
+
+.nav_partners:hover .nav_div {
+	display: flex;
 }
 
 
