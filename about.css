@@ -16,7 +16,7 @@
 }
 
 .aboutPar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 26px;
     text-align: center;
     margin:0;
@@ -25,10 +25,11 @@
     padding-top: 5%;
     padding-bottom: 5%;
     color:#8f8f8f;
+    line-height: 2.0;
 }
 
 .aboutPar2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 26px;
     text-align: center;
     margin:0;
@@ -36,6 +37,7 @@
     padding-right: 7%;
     padding-bottom: 5%;
     color: #8f8f8f;
+    line-height: 2.0;
 }
 
 .banner2 {
