@@ -1,0 +1,74 @@
+/* Contact CSS */
+
+.Our_Info{
+  border-radius: 20px;
+}
+
+.CONTACT_US {
+  /* Alignment */
+  margin: auto;
+  width: 50%;
+  padding:30px;
+
+  /* Text Properties */
+  color: red;
+  text-align: center;
+  font-family: verdana;
+  font-size: 40px;
+}
+
+.CONTACT_DETAILS {
+  /* text properties */
+  color: black;
+  text-align: center;
+  word-wrap: normal;
+  font-size: 20px;
+  font-family: verdana;
+
+  /* Alignment */
+  margin: auto;
+  width: 50%;
+  align-self: center;
+  padding-bottom: 50px;
+}
+
+.Contact_text{
+  background-color: lightblue;
+}
+
+.email_phone {
+  margin: auto;
+  width: 50%;
+  align-self: center;
+
+  color: blue;
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.Contact_Form{
+  /* Alignment */
+  margin: auto;
+  width: 50%;
+  padding:30px;
+
+  /* Text Properties */
+  color: red;
+  text-align: center;
+  font-family: verdana;
+  font-size: 30px;
+}
+
+.Form{
+  /* Alignment */
+  margin: auto;
+  width: 50%;
+  align-self: center;
+
+  /* Text Properties */
+  font-family: verdana;
+  font-size: 15px;
+}
+
+
