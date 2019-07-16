@@ -1,7 +1,9 @@
 /* Contact CSS */
+font-family: 'Merriweather', serif;
 
 .Our_Info{
   border-radius: 20px;
+  background-color: #c7f8ff;
 }
 
 .CONTACT_US {
@@ -11,25 +13,26 @@
   padding:30px;
 
   /* Text Properties */
-  color: red;
+  color: #0094e9;
   text-align: center;
-  font-family: verdana;
+  font-family: Merriweather;
   font-size: 40px;
 }
 
 .CONTACT_DETAILS {
   /* text properties */
-  color: black;
+  color: #383e47;
   text-align: center;
   word-wrap: normal;
   font-size: 20px;
-  font-family: verdana;
+  font-family: Merriweather;
 
   /* Alignment */
   margin: auto;
   width: 50%;
   align-self: center;
   padding-bottom: 50px;
+
 }
 
 .Contact_text{
@@ -41,9 +44,9 @@
   width: 50%;
   align-self: center;
 
-  color: blue;
+  color: red;
   text-align: center;
-  font-family: verdana;
+  font-family: Merriweather;
   font-size: 20px;
 }
 
@@ -54,20 +57,19 @@
   padding:30px;
 
   /* Text Properties */
-  color: red;
+  color: #0094e9;
   text-align: center;
-  font-family: verdana;
+  font-family: Merriweather;
   font-size: 30px;
 }
 
 .Form{
   /* Alignment */
   margin: auto;
-  width: 50%;
-  align-self: center;
+  text-align: center;
 
   /* Text Properties */
-  font-family: verdana;
+  font-family: Merriweather;
   font-size: 15px;
 }
 
