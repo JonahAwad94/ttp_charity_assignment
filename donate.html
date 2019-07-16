@@ -3,7 +3,8 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
-	<title>Cancer Research of America</title>
+    <link rel="stylesheet" type="text/css" href="donate.css">
+    <title>Cancer Research of America</title>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -21,6 +22,76 @@
         </div>
 
     <!-- put code after here -->
+        <div class="donate_div">
+            <p class="donate_title">every contribution helps</p>
+            <hr class="title_line">
+            <div class="amount_div">
+                <form class="amount_options">
+                    <label><input type="radio" name="donate_amount"> $10</label>
+                    <label><input type="radio" name="donate_amount"> $20</label>
+                    <label><input type="radio" name="donate_amount"> $50</label>
+                    <label><input type="radio" name="donate_amount"> $100</label>
+                    <label><input type="radio" name="donate_amount"><input type="number" name="donate_amount" placeholder="Custom Amount"></label>
+                </form>
+            </div>
+
+            <div class="payment_info">
+                <p>Please enter the information below:</p>
+                <div class="payment_info_A">
+                    <div>
+                        <p>Billing Address:</p>
+                        <input type="text" name="street" placeholder="STREET ADDRESS">
+                        <div>
+                            <input type="text" name="city" placeholder="CITY">
+                            <input type="text" name="state" placeholder="STATE">
+                            <input type="text" name="zip" placeholder="ZIP-CODE">
+                        </div>
+                    </div>
+                    <div>
+                        <p>Card Information:</p>
+                        <input type="text" name="fullname" placeholder="NAME ON CARD">
+                        <input type="text" name="card_number" placeholder="####-####-####-####">
+                        <div class="month_year">
+                            <p>Expires: </p>
+                            <input type="text" name="month" placeholder="MONTH">
+                            <p>/</p>
+                            <input type="number" name="day" placeholder="YEAR">
+                        </div>
+                        <div class="security_code">
+                            <p>Security Code:</p>
+                            <input type="number" name="code">
+                        </div>
+                    </div>
+                    <div class="terms_conditions">
+                        <label><input type="checkbox" name="news_letter"> Sign up for our weekly news letter.</label>
+                        <label><input type="checkbox" name="agree"> I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms.</label>
+                    </div>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
