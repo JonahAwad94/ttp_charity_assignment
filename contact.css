@@ -1,7 +1,6 @@
-/* Contact CSS */
-font-family: 'Merriweather', serif;
-
 .Our_Info{
+  padding-top: 60px;
+  padding-bottom: 100px;
   border-radius: 20px;
   background-color: #c7f8ff;
 }

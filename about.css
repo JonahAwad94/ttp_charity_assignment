@@ -2,6 +2,7 @@
     height: 500px;
     background-image: url("https://www.conehealth.com/app/files/public/9988/Physician-Hands-Home-Banner.jpg");
     background-repeat: no-repeat;
+    padding-top: 60px;
 }
 
 .banner1P {
@@ -9,14 +10,15 @@
     font-size: 350%;
     font-weight: 510;
     font-family: 'Merriweather', serif;
-    padding-block-start: 10%;
+    padding-block-start: 5%;
     padding-left: 5%;
     text-align: left;
-    color: rgb(8, 38, 66);
+    color: black;
 }
 
 .aboutPar {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
     font-size: 26px;
     text-align: center;
     margin:0;
@@ -30,22 +32,26 @@
 
 .aboutPar2 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 26px;
+    font-weight: lighter;
+    font-size: 20px;
     text-align: center;
     margin:0;
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 5%;
     color: #8f8f8f;
-    line-height: 2.0;
 }
 
 .banner2 {
-    height: 300px;
+    height: 500px;
     background-image: url("banner2.jpg");
     background-repeat: no-repeat;
     background-position: center; 
-    background-size: cover; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; 
  }
 
 .banner2P {
@@ -56,6 +62,6 @@
     padding-block-start: 10%;
     padding: 10%;
     text-align: center;
-    color:rgb(8, 38, 66);
+    color: black;
     word-spacing: 10px; 
 }

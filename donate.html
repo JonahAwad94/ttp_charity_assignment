@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Ubuntu:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="donate.css">
     <title>Cancer Research of America</title>
@@ -10,19 +12,29 @@
 <body>
     <!-- NAVBAR -->
         <div class="nav">
-            <a class="nav_link nav_partners"><p class="nav_about">partners</p></a>
-            <a class="nav_link" href="donate.html"><p class="nav_donate">donate</p></a>
-            <a class="nav_link" href="contact.html"><p class="nav_contact">contact</p></a>
-            <a class="nav_link" href="index.html"><p>about</p></a>
+            <a class="nav_link nav_partners">
+                <p>partners</p>
+            </a>
+            <a class="nav_link" href="donate.html">
+                <p class="nav_donate">donate</p>
+            </a>
+            <a class="nav_link" href="contact.html">
+                <p class="nav_contact">contact</p>
+            </a>
+            <a class="nav_link nav_about" href="index.html">
+                <p>about</p>
+            </a>
             <div class="nav_div">
-                <a class="nav_partners_link"><p>one</p></a>
-                <a class="nav_partners_link"><p>two</p></a>
-                <a class="nav_partners_link"><p>three</p></a>
-                <a class="nav_partners_link"><p>four</p></a>
+                <a>one</a>
+                <a>two</a>
+                <a>three</a>
+                <a>four</a>
             </div>
         </div>
 
     <!-- put code after here -->
+        <div class="buffer">
+        </div>
         <div class="donate_div">
             <p class="donate_title">every contribution helps</p>
             <hr class="title_line">
@@ -32,23 +44,26 @@
                     <label><input type="radio" name="donate_amount"> $20</label>
                     <label><input type="radio" name="donate_amount"> $50</label>
                     <label><input type="radio" name="donate_amount"> $100</label>
-                    <label><input type="radio" name="donate_amount"><input type="number" name="donate_amount" placeholder="Custom Amount"></label>
+                    <label><input class="radio_custom" type="radio" name="donate_amount"><input type="number" name="donate_amount" placeholder=" Custom Amount" class="custom_amount"></label>
                 </form>
             </div>
 
+            <hr>
+
             <div class="payment_info">
-                <p>Please enter the information below:</p>
+                <p class="title2">Please enter the information below:</p>
                 <div class="payment_info_A">
-                    <div>
+                    <div class="one_">
                         <p>Billing Address:</p>
-                        <input type="text" name="street" placeholder="STREET ADDRESS">
+                        <input class="billing1" type="text" name="street" placeholder="STREET ADDRESS">
                         <div>
-                            <input type="text" name="city" placeholder="CITY">
-                            <input type="text" name="state" placeholder="STATE">
-                            <input type="text" name="zip" placeholder="ZIP-CODE">
+                            <input class="billing2" type="text" name="city" placeholder="CITY">
+                            <input class="billing3" type="text" name="state" placeholder="STATE">
+                            <input class="billing4" type="text" name="zip" placeholder="ZIP-CODE">
                         </div>
                     </div>
-                    <div>
+
+                    <div class="two_">
                         <p>Card Information:</p>
                         <input type="text" name="fullname" placeholder="NAME ON CARD">
                         <input type="text" name="card_number" placeholder="####-####-####-####">
@@ -63,12 +78,13 @@
                             <input type="number" name="code">
                         </div>
                     </div>
-                    <div class="terms_conditions">
-                        <label><input type="checkbox" name="news_letter"> Sign up for our weekly news letter.</label>
-                        <label><input type="checkbox" name="agree"> I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms.</label>
-                    </div>
-                    <button>Submit</button>
                 </div>
+
+                <div class="terms_conditions">
+                    <label><input type="checkbox" name="news_letter"> Sign up for our weekly news letter.</label>
+                    <label><input type="checkbox" name="agree"> I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms I agree to the terms.</label>
+                </div>
+                <button>Submit</button>
             </div>
         </div>
     
