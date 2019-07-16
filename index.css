@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	height: 80px;
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
+
+.nav_link, .nav_div {
+	width: 25%;
+	background-color: #e00d0d;
+	font-size: 24px;
+}
+
+.nav_link {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav_div * {
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
+
+.nav a * {
+	font-family: 'Bitter', serif;
+	color: white;
+	text-transform: uppercase;
+}
+
+div a:first-child:hover {
+
+}
+
+
+
+
+
+
+
+
+
+
