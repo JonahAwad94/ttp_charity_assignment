@@ -40,6 +40,7 @@
     padding-right: 7%;
     padding-bottom: 5%;
     color: #8f8f8f;
+    background-color: white;
 }
 
 .banner2 {
@@ -52,6 +53,27 @@
     justify-content: center;
     align-items: center;
     font-size: 25px; 
+ }
+
+ .banner3 {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1674&q=80");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; 
+ }
+
+ .banner3 p {
+    font-size: 100px;
+ }
+
+ .banner1, .banner2, .banner3 {
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 116px 16px rgba(0,0,0,0.45);
  }
 
 .banner2P {
