@@ -11,6 +11,9 @@ html, body {
 	position: fixed;
 	width: 100%;
 	box-shadow: 0px 0px 20px black;
+	border-width: 0 0 2px 0;
+	border-color: #cf0000;
+	border-style: solid;
 }
 
 .nav_link, .nav_div {

@@ -28,6 +28,9 @@
     padding-bottom: 5%;
     color:#8f8f8f;
     line-height: 2.0;
+    border-width: 4px 0;
+    border-color: #cf0000;
+    border-style: solid;
 }
 
 .aboutPar2 {
@@ -41,6 +44,10 @@
     padding-bottom: 5%;
     color: #8f8f8f;
     background-color: white;
+}
+
+.aboutParLast {
+    border-width: 4px 0 0 0;
 }
 
 .banner2 {
