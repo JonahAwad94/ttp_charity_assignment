@@ -1,8 +1,13 @@
+body {
+  background-image: url('contact_page_background.jpg');
+  background-position: right-top;
+  background-attachment: fixed;
+}
+
 .Our_Info{
   padding-top: 60px;
   padding-bottom: 100px;
   border-radius: 20px;
-  background-color: #c7f8ff;
 }
 
 .CONTACT_US {
@@ -12,7 +17,7 @@
   padding:30px;
 
   /* Text Properties */
-  color: #0094e9;
+  color: black;
   text-align: center;
   font-family: Merriweather;
   font-size: 40px;
@@ -34,19 +39,15 @@
 
 }
 
-.Contact_text{
-  background-color: lightblue;
-}
-
 .email_phone {
   margin: auto;
   width: 50%;
   align-self: center;
 
-  color: red;
+  color: brown;
   text-align: center;
   font-family: Merriweather;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .Contact_Form{
@@ -56,7 +57,6 @@
   padding:30px;
 
   /* Text Properties */
-  color: #0094e9;
   text-align: center;
   font-family: Merriweather;
   font-size: 30px;
@@ -73,3 +73,18 @@
 }
 
 
+#SubmitButton {
+  font-size: 18px;    
+}
+
+#userInput{
+  color: #383e47;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px;     
+}
+
+#contact_box{
+  border-radius: 5px;
+  border: 1px solid black;
+}
